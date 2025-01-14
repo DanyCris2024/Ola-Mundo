@@ -1,0 +1,9 @@
+from selenium import webdriver
+
+from webdriver_manager.chrome import ChomeDriverManager
+from selenium.webdriver.chrome.service import Service
+
+servico=Service(ChromeDriverManager().Iinstall())
+
+
+navegador=webdriver.chrome(service=servico)
